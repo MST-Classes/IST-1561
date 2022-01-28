@@ -1,3 +1,4 @@
 rootProject.name = 'IST-1561'
 include 'Lab-1'
+include 'Lab-2'
 
