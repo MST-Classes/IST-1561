@@ -1,4 +1,4 @@
-package lab;
+package me.nhall.lab;
 
 public class Lab3 {
 
