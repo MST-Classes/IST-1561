@@ -13,9 +13,8 @@ public class MaxValue {
         int num = sc.nextInt();
 
         while (num > 0) {
-            if (num == max) {
-                count++;
-            }
+            if (num == max) count++;
+
             if (num > max) {
                 max = num;
                 count = 1;
