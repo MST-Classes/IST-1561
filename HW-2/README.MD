@@ -29,7 +29,6 @@ class Test {
 1. ```y = x – y;```
 2. ``` y= y+x```
 3.
-
 ```java
         y=y+2;
         if(y>4){
@@ -79,6 +78,51 @@ H. 02 14 25 36 47
 5.  D
 
 ## Max Value
+#### Problem Description:
+Write a program that reads integers, finds the largest of them, and counts its occurrences.
+Assume that the input ends with number 0. Suppose that you entered 3 5 2 5 5 5 0; the 
+program finds that the largest is 5 and the occurrence count for 5 is 4. (Hint: Maintain 
+two variables, max and count. max stores the current max number, and count stores its 
+occurrences. Initially, assign the first number to max and 1 to count. Compare each 
+subsequent number with max. If the number is greater than max, assign it to max and 
+reset count to 1. If the number is equal to max, increment count by 1.
 
+#### Samples
+
+#####Sample 1:
+Enter numbers: `3 5 2 5 5 5 0`
+
+The largest number is 5
+
+The occurrence count of the largest number is 4
+
+#####Sample 2:
+Enter numbers: 3 6 5 4 2 4 5 4 5 5 0
+
+The largest number is 6
+
+The occurrence count of the largest number is
 
 ## Locker Puzzle
+
+A school has 100 lockers and 100 students. All lockers are closed on the first day of 
+school. As the students enter, the first student, denoted S1, opens every locker. Then the 
+second student, S2, begins with the second locker, denoted L2, and closes every other 
+locker. Student S3 begins with the third locker and changes every third locker (closes it if 
+it was open, and opens it if it was closed). Student S4 begins with locker L4 and changes 
+every fourth locker. Student S5 starts with L5 and changes every fifth locker, and so on, 
+until student S100 changes L100.
+
+After all the students have passed through the building and changed the lockers, which 
+lockers are open? Write a program to find your answer. The program should display the answer like this: 
+
+Locker x is open
+
+Locker y is open
+
+…
+
+Locker z is open
+
+(Hint: Use an array of 100 boolean elements, each of which indicates whether a locker is 
+open (true) or closed (false). Initially, all lockers are closed.)
