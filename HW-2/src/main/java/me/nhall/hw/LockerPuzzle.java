@@ -15,7 +15,6 @@ public class LockerPuzzle {
         for (int S = 2; S < locker.length; S++) {
             for (int k = S; k < locker.length; k = k + S) {
                 locker[k] = !locker[k];
-
             }
         }
         for (int S = 1; S < locker.length; S++) {
